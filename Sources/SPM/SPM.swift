@@ -1,6 +1,8 @@
-public struct SPM {
-    public private(set) var text = "Hello, World!"
 
-    public init() {
+import Foundation
+
+class Print {
+    public func printText(_ arg: String) {
+        print("🧐 \(arg)")
     }
 }
